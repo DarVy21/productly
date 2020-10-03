@@ -1,0 +1,41 @@
+.button{
+    @extend %font-primary;
+    padding: 11px 25px 13px;
+    @include font(1.6rem, 2.2rem, 600 );
+    border-radius: 4px;
+    cursor: pointer;
+    @extend %transition;
+
+}
+.button_bordered{
+
+    background: $color-light;
+    border: 1px solid $color-border;
+    color: $color-text;
+}
+.button_colored{
+    background: $color-primary;
+    color: $color-light;
+    border: 1px solid $color-light;
+}
+
+.button_bordered:hover{
+    background: $color-hovered;
+    border-color: $color-hovered;
+}
+.button_colored:hover{
+    background: $color-additional;
+    border-color: $color-additional;
+}
+
+.link-button{
+    color: $color-primary;
+    @extend %font-add;
+    display: inline-flex;
+    align-items: center;
+}
+
+.link-button__text{
+    margin-left: 9px;
+}
+

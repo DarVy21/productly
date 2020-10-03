@@ -1,0 +1,17 @@
+{
+  "name": "live-coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch src/sass/style.scss src/sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^8.10.0",
+    "normalize-scss": "^7.0.1",
+    "webpack": "^4.44.2"
+  }
+}
